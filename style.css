@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+  
+*{  margin: 0 auto;
+    max-width: 1600px;
+}  
+.container {  
+    display: block;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.a2 {
+    position: absolute;
+    top: 55px;
+    right: 360px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.a3 {
+    position: absolute;
+    top: 55px;
+    right: 250px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.button {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    font-size: 18px;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0); 
+    color: rgb(233, 216, 223); 
+    border: 2px solid rgb(255, 255, 255);
+} 
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.a5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 80px;
+    text-decoration: none;
+}
+.button1 {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button1 {
+    background-color: rgba(0, 0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgb(255, 255, 255);
+} 
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+body {
+    background-color: rgb(16, 16, 16) ;
+}
+.container1 {  display: grid;
+    grid-template-columns: 0.8fr 0.6fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+      margin-top: 180px;
+}
+.c {
+    background-image: url(./foto/vertical-high-angle-shot-of-valb.jpg);
+    width: 400px;
+    height: 562px;
+    position: relative;
+    margin-left: 120px;
+    background-repeat: no-repeat;
+}
+.c {
+    -webkit-filter: brightness(100%);
+    transition: all 0.5s ease;
+}
+.c:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.c1  {
+    margin-top: 20px;
+    font-size: 60px;
+    margin: 120px 0px 20px 150px;
+    color: white;
+}
+.c5 {
+    position: relative;
+    font-size: 25px;
+    margin: 10px 0px 0px 150px;
+    line-height: 1.3;
+    color: white;
+}
+.c6  {
+    position: relative;
+    font-size: 18px;
+    margin-left: 670px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(45, 138, 0);
+}
+.d1 {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.385);
+    width: 700px ;
+    height: 380px;
+    top: 250px;
+    left: 65px;
+    border-radius: 15px;
+}
+.d2 {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.385);
+    width: 630px ;
+    height: 380px;
+    top: 250px;
+    right: 65px;
+    border-radius: 15px;
+}
+.d {
+    position: relative;
+    margin-top: 200px;   
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.d3 {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.385);
+    width: 395px ;
+    height: 380px;
+    bottom: 40px;
+    left: 65px;
+    border-radius: 15px;
+}
+.d4 {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.385);
+    width: 520px ;
+    height:380px;
+    bottom: 40px;
+    border-radius: 15px;
+}
+.d5 {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.385);
+    width: 395px ;
+    height: 380px;
+    bottom: 40px;
+    right: 65px;
+    border-radius: 15px;
+}
+.d1, .d2, .d3, .d4, .d5 {
+    font-size: 26px;
+    color: white;
+}
+.e, .e1, .e2, .e3, .e4 {
+    position: relative;
+    /* top: 100px; */
+    text-align: center;
+    padding: 40px;
+}
+.e {
+    position: relative;
+    top: 50px;
+}
+.e1 {
+    position: relative;
+    top: 70px;
+}
+.e2 {
+    position: relative;
+    top: 65px;
+}
+.e3 {
+    position: relative;
+    top: 85px;
+}
+.e4 {
+    position: relative;
+    top: 80px;
+} 
+.e5 {
+    width: 270px;
+    height: 280px;
+    position: absolute;
+    right: -50px;
+    top: 170px;
+}
+.f {
+    position: relative;
+    color: white;
+    top: 150px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.f::after {
+    position: absolute;
+    right: 0;
+    bottom: -36px;
+    left: 0;
+    display: block;
+    content: 'Основные науки биологии и что они изучают';
+    transform: scaleY(-1);
+    opacity: .1;
+}
+h1, p {
+    color: white;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 0.6fr 0.8fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";    
+}
+.g {
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+}
+.g1 {
+    top: 220px;
+    position: relative;
+    font-size: 25px;
+    line-height: 1.3;
+}
+.g2 {
+    position: relative;
+    top: 170px;
+}
+.g3 {
+    position: relative;
+    font-size: 20px;
+    top: 240px;
+    left: 620px;
+    text-decoration: none;
+    color: rgb(45, 138, 0);
+}
+.h {
+    position: absolute;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.214);
+    margin-top: 70px;
+    margin-left: 90px;
+}
+.h1 {
+    position: absolute;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.214);
+    margin-top: 120px;
+    margin-left: 550px;
+}
+.i {  
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . .";
+    margin-top: 270px;
+    margin-bottom: 50px;
+  }
+.i1 {
+    position: relative;
+    width: 95%;
+    height: 3px;
+    background:rgba(255, 255, 255, 0.214);
+    top: 250px;
+    border-radius: 2px;
+}
+.i2 {
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+.i3 {
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+.i4 {
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+.i5 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.k2 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: white;
+}
+.k5 {
+    position: relative;
+}
+.k4 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: white;
+}
+.o1 {
+    position: relative;
+    width: 95%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.214);
+    top: 65px;
+    border-radius: 2px;
+}
+.container4 {  
+    position: relative;
+    top: 115px;
+}
+.r {
+    position: relative;
+    color:white;
+    bottom: 23px;
+    margin-left: 30px;
+}
+.r {
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+    margin: 20px;
+}
+.o2 {
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+}
+.k, .k5, .k6 {
+    font-size: 26px;
+    color: rgb(45, 138, 0);
+}
+.i {
+    position: relative;
+    top: 40px;
+}
+.f1 {
+    position: relative;
+    width: 30%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.214);
+    top: 80px;
+    border-radius: 2px;
+}
+.w {
+    position: relative;
+    width: 500px;
+    height: 351px;
+    right: 30%;
+    top: 709px;
+    opacity: .5;
+}
+.w1 {
+    position: relative;
+    width: 500px;
+    height: 359px;
+    top: 250px;
+    right: 67%;
+    opacity: .5;
+}
+.w2 {
+    position: relative;
+    width: 400px;
+    height: 346px;
+    top: 250px;
+    right: 459px;
+    opacity: .5;
+    border-radius: 12px;
+}
+.w3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 590px;
+    right: 647px;
+    opacity: .5;
+}
+.w4 {
+    position: relative;
+    width: 500px;
+    height: 359px;
+    top: 700px;
+    right: 90%;
+    opacity: .5;
+}
+.l {
+    position: relative;
+    width: 30%;
+    height: 3px;
+    background:rgba(255, 255, 255, 0.214);
+    top: 50px;
+    border-radius: 2px;
+}
